@@ -1,4 +1,35 @@
 # Sales-Insights
+Project Description
+Sales Insights and Predictions
+This project involves analyzing sales data to extract meaningful insights and predict future performance. The dataset includes various features such as units sold, unit price, unit cost, total revenue, total profit, order date, and ship date.
+
+The main tasks include:
+
+Data Preprocessing:
+
+Convert date columns to datetime format.
+Handle missing values and convert necessary columns to numeric types.
+Calculate additional features such as profit margin, delivery days, month, year, and year-month.
+Encode categorical variables like region, country, item type, sales channel, and order priority.
+Feature and Target Definition:
+
+Define features for modeling, including units sold, unit price, unit cost, region, country, item type, sales channel, and order priority.
+Define targets for profit prediction, sales prediction, and customer preference classification.
+Model Training and Evaluation:
+
+Split data into training and testing sets.
+Apply feature scaling.
+Train and tune various models such as Logistic Regression, Decision Tree Classifier, Support Vector Classifier, Stacking Classifier, and Random Forest Regressor.
+Evaluate models using metrics like accuracy, classification report, and mean squared error.
+Visualize feature importance for profit and sales predictions.
+Data Visualization:
+
+Visualize monthly and yearly sales trends.
+Display distributions of profit margins and delivery days.
+Analyze regional performance and product category performance.
+Identify the most and least sold items.
+The following mappings are used for regions and item types:
+
 Regions:
 0: Asia
 1: Europe
@@ -6,7 +37,6 @@ Regions:
 3: North America
 4: South America
 5: Oceania
-
 Item Types:
 0: Beverages
 1: Cereal
