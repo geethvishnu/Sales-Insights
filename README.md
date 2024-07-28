@@ -1,4 +1,23 @@
 # Sales-Insights
+Regions:
+0: Asia
+1: Europe
+2: Africa
+3: North America
+4: South America
+5: Oceania
+
+Item Types:
+0: Beverages
+1: Cereal
+2: Clothes
+3: Cosmetics
+4: Fruits
+5: Household
+6: Meat
+7: Office Supplies
+8: Personal Care
+9: Snacks
 
 ![image](https://github.com/user-attachments/assets/07edfa86-e14b-4131-8875-c28cf96ba1be)
 
